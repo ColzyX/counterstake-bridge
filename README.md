@@ -52,8 +52,8 @@ Check `conf.js` for the available options. You can override them in your conf.js
 * `control_addresses`: array of device addresses of your Obyte wallets (usually GUI wallets) that are allowed to view and withdraw balances using chatbot interface.
 * `payout_addresses`: associative array of your withdrawal addresses keyed by network.
 
-## Email notifications
-The bot includes watchdog features. If it complains about `admin_email` and `from_email`, specify them in ~/.config/counterstake-bridge/conf.json. In case of any issues, you'll get notifications to `admin_email`.
+## Watchdog
+The bot includes watchdog features. Before running the bot, specify `admin_email` and `from_email` in ~/.config/counterstake-bridge/conf.json. In case of any issues, you'll get notifications to `admin_email`.
 
 Add `check_daemon.js` to your crontab. See `crontab.txt` for the line to be added to your crontab. If your crontab is empty, just run
 ```bash
