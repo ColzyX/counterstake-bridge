@@ -17,9 +17,12 @@ cd counterstake-bridge
 ## Dependencies and installation
 Node.js 12+, npm, and yarn are required
 
-Make sure they're installed, or run the dependency check script, 
+You can run the dependency check script, 
 ```bash
 bash depcheck
+'''
+or start with
+'''
 yarn
 ```
 
